@@ -3,6 +3,9 @@
 ## Descrição
 Este é um projeto criado para demonstrar habilidades em desenvolvimento com Angular, NgRx, Toastr e Angular Material. A aplicação consiste em uma lista dinâmica de itens obtidos por meio de uma requisição fetch, demonstrando o uso integrado dessas tecnologias para criar uma experiência de usuário interativa.
 
+## Deploy
+Você pode conferir o deploy em https://front-end-angular-test.vercel.app/
+
 ## Funcionalidades
 - **Exemplo de Fetch e Listagem de Itens**: Realiza uma requisição fetch para obter itens e os exibe em uma lista dinâmica na interface do usuário.
 - **Estado Global com NgRx**: Utilização do NgRx para gerenciamento do estado da aplicação de forma centralizada.
