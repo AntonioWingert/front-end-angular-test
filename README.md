@@ -10,8 +10,8 @@ Este é um projeto criado para demonstrar habilidades em desenvolvimento com Ang
 - **Design Responsivo com Angular Material**: Utilização de componentes do Angular Material para garantir uma interface de usuário responsiva e atraente.
 
 ## Instalação
-1. Clone este repositório: `git clone https://github.com/seu-usuario/FrontEndAngular.git`
-2. Navegue até o diretório do projeto: `cd FrontEndAngular`
+1. Clone este repositório: `git clone https://github.com/AntonioWingert/front-end-angular-test.git`
+2. Navegue até o diretório do projeto: `cd front-end-angular-test`
 3. Instale as dependências: `npm install`
 
 ## Execução
