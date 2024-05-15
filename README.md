@@ -1,27 +1,30 @@
-# LinkedFrontEndTest
+# Desafio Front-End: Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+## Descrição
+Este é um projeto criado para demonstrar habilidades em desenvolvimento com Angular, NgRx, Toastr e Angular Material. A aplicação consiste em uma lista dinâmica de itens obtidos por meio de uma requisição fetch, demonstrando o uso integrado dessas tecnologias para criar uma experiência de usuário interativa.
 
-## Development server
+## Funcionalidades
+- **Exemplo de Fetch e Listagem de Itens**: Realiza uma requisição fetch para obter itens e os exibe em uma lista dinâmica na interface do usuário.
+- **Estado Global com NgRx**: Utilização do NgRx para gerenciamento do estado da aplicação de forma centralizada.
+- **Notificações com Toastr**: Exibição de notificações ao usuário utilizando o Toastr para feedback visual.
+- **Design Responsivo com Angular Material**: Utilização de componentes do Angular Material para garantir uma interface de usuário responsiva e atraente.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instalação
+1. Clone este repositório: `git clone https://github.com/AntonioWingert/front-end-angular-test.git`
+2. Navegue até o diretório do projeto: `cd front-end-angular-test`
+3. Instale as dependências: `npm install`
 
-## Code scaffolding
+## Execução
+Execute `ng serve` para iniciar o servidor de desenvolvimento. Navegue até `http://localhost:4200/`. A aplicação será recarregada automaticamente se você fizer alterações nos arquivos fonte.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Utilizadas
+- **Angular**: Framework front-end baseado em TypeScript para construir aplicações web escaláveis.
+- **NgRx**: Biblioteca para gerenciamento de estado baseada em RxJS, seguindo o padrão Redux.
+- **Toastr**: Biblioteca para exibir notificações de forma elegante em aplicações web.
+- **Angular Material**: Biblioteca de componentes UI construída com Material Design para Angular.
 
-## Build
+## Contribuição
+Contribuições são bem-vindas! Por favor, siga as diretrizes de contribuição do projeto. Abra uma issue para reportar bugs ou propor novas funcionalidades. Se deseja contribuir diretamente, abra um pull request.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Licença
+Este projeto é distribuído sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
