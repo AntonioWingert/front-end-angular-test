@@ -1,0 +1,11 @@
+<div *ngIf="(boosterCards$ | async) as boosterCards" class="booster-cards-container">
+  <div *ngFor="let boosterCard of (boosterCards$ | async)" class="booster-card-container">
+    <div class="booster-card-header">
+      <h2 class="booster-card-title">{{boosterCard.name}}</h2>
+      <h3 class="booster-card-price">{{boosterCard.manaCost}}</h3>
+    </div>
+    <img src={{boosterCard.imageUrl}} alt="Card Image">
+    <h4 class="booster-card-color-identity">{{boosterCard.colorIdentity}}</h4>
+    <h4 class="booster-card-description">{{boosterCard.text}}</h4>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="card-main-container">
+  <mat-card *ngFor="let card of (cards$ | async)?.slice(0, 6)" (click)="getBoosterCards(card)" (keyup)="handleKeyup($event)"
+    tabindex="0" class="card-container">
+    <mat-card-content class="card-content">
+      <mat-card-title-group>
+        <mat-card-title>{{card.name}}</mat-card-title>
+        <mat-card-subtitle>{{card.block}}</mat-card-subtitle>
+      </mat-card-title-group>
+      <mat-card-footer class="card-footer">{{card.releaseDate}}</mat-card-footer>
+    </mat-card-content>
+  </mat-card>
+</div>

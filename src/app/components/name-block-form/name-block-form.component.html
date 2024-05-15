@@ -1,0 +1,25 @@
+<form (ngSubmit)="onSubmit()" class="form-field">
+  <mat-form-field>
+    <mat-label>Nome</mat-label>
+    <input matInput type="text" [(ngModel)]="name" id="name" name="name">
+    @if (name) {
+    <button matSuffix mat-icon-button aria-label="Clear" (click)="name=''" type="button">
+      <mat-icon>close</mat-icon>
+    </button>
+    }
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Selecione a expansão</mat-label>
+    <mat-select name="block" id="block" [(ngModel)]="block">
+      <mat-option value="Amonkhet">Amonkhet</mat-option>
+      <mat-option value="Ixalan">Ixalan</mat-option>
+      <mat-option value="Zendikar">Zendikar</mat-option>
+      <mat-option value="Ravnica">Ravnica</mat-option>
+      <mat-option value="Onslaught">Onslaught</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <button [disabled]="(name ?? '').length < 1" mat-fab extended class="form-field-button" type="submit">
+    <mat-icon>search</mat-icon>
+    Pesquisar
+  </button>
+</form>
